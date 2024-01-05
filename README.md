@@ -1,1 +1,9 @@
-# odin_recipes1) The Odin Project's UI is so orgasmic
+# Project Titile : Odin Recipe
+
+# Introduction
+  - This project is about creating a simple webpage of 4 different recipes.
+  - HTML skills demonstrated : like boilerplate , anchor tag,img tag
+  - CLI skills demonstrated : like using Git via bash
+
+# Self-reflection
+  - Difficulty faced : setting up README.md from git
