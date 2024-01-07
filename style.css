@@ -1,6 +1,6 @@
 h1{
     color:wheat;
-    background-color: rgb(184, 77, 77);
+    background-color: hsl(0, 43%, 51%);
     font-size:70px;
     text-align: center;
     font-family: "Papyrus";
@@ -13,6 +13,29 @@ ul li a{
     
 }
 
+ul{
+    border: 8px solid rgb(187,77,77);
+    padding: 10px;
+    width: 640px;
+    margin: 20px auto;
+}
+
+ul li{
+    border: 2px solid rgb(187,77,77);
+    padding: 10px;
+    width: 200px;
+    margin: 10px auto;
+}
+
 body{
     background-color: wheat;
+}
+
+img{
+    border:2px solid orange;
+    display: block;
+    padding: 10px;
+    width:650px;
+    margin:0 auto;
+    background-color: rgb(187,77,77);
 }
