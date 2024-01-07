@@ -1,0 +1,16 @@
+body{
+    background-color:wheat;
+}
+
+h1{
+    background-color:rgb(184, 77, 77);
+    color:wheat;
+    text-align: center;
+    font-size: 55px;
+}
+
+*{
+    color:rgb(184, 77, 77);
+}
+
+
