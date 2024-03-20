@@ -1,41 +1,76 @@
-h1{
-    color:wheat;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, sans-serif;
+}
+
+h1 {
+    color: wheat;
     background-color: hsl(0, 43%, 51%);
-    font-size:70px;
+    font-size: 70px;
     text-align: center;
-    font-family: "Papyrus";
+    padding: 20px;
 }
 
-ul li a{
-    color: rgb(184, 77, 77);
-    font-size:29px;
+ul li a {
+    font-size: 29px;
     font-weight: bold;
-    
+    text-decoration: none;
+    color: rgb(235, 76, 76);
+    transition: color 0.3s;
 }
 
-ul{
-    border: 8px solid rgb(187,77,77);
+ul {
+    border-radius: 10px;
     padding: 10px;
     width: 640px;
     margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(245, 111, 111);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
 }
 
-ul li{
-    border: 2px solid rgb(187,77,77);
-    padding: 10px;
+ul li {
+    border-radius: 5px;
+    padding: 15px 5px;
     width: 200px;
-    margin: 10px auto;
+    margin: 0px 10px;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(255, 220, 220);
+    transition: background-color 0.3s;
 }
 
-body{
+ul li:hover {
+    background-color: rgb(184, 77, 77);
+    transform: scale(1.1);
+}
+
+ul li a:hover {
+    color: wheat;
+}
+
+body {
     background-color: wheat;
 }
 
-img{
-    border:2px solid orange;
+img {
+    border-radius: 10px;
     display: block;
-    padding: 10px;
-    width:650px;
-    margin:0 auto;
-    background-color: rgb(187,77,77);
+    padding: 5px;
+    width: 650px;
+    margin: 50px auto;
+    background-color: rgb(187, 77, 77);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 2s;
+}
+
+img:hover {
+    transform: scale(1.05);
 }
